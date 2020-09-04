@@ -474,10 +474,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/etc/power_whitelist_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_whitelist_cfg.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/powercontable.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.cfg \
     vendor/xiaomi/certus/proprietary/vendor/etc/powerscntbl.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.cfg \
-    vendor/xiaomi/certus/proprietary/vendor/etc/rsc/cactus[op01]/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/cactus[op01]/ro.prop \
-    vendor/xiaomi/certus/proprietary/vendor/etc/rsc/cactus[op01]/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/cactus[op01]/rw.prop \
-    vendor/xiaomi/certus/proprietary/vendor/etc/rsc/cactus[op09]/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/cactus[op09]/ro.prop \
-    vendor/xiaomi/certus/proprietary/vendor/etc/rsc/cactus[op09]/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/cactus[op09]/rw.prop \
     vendor/xiaomi/certus/proprietary/vendor/etc/security/cacerts_supl/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/111e6273.0 \
     vendor/xiaomi/certus/proprietary/vendor/etc/security/cacerts_supl/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/3ad48a91.0 \
     vendor/xiaomi/certus/proprietary/vendor/etc/security/cacerts_supl/7651b327.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/7651b327.0 \
