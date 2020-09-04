@@ -126,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/etc/.tp/thermal_normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal_normal.conf \
     vendor/xiaomi/certus/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
-    vendor/xiaomi/certus/proprietary/vendor/etc/MIUI_Time.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/MIUI_Time.ttf \
     vendor/xiaomi/certus/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
     vendor/xiaomi/certus/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/ams_aal_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ams_aal_config.xml \
@@ -320,7 +319,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/etc/audio_param_1/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_1/Volume_ParamUnitDesc.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
-    vendor/xiaomi/certus/proprietary/vendor/etc/camera/Miui-Light.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Miui-Light.ttf \
     vendor/xiaomi/certus/proprietary/vendor/etc/camera/female_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_bg.png \
     vendor/xiaomi/certus/proprietary/vendor/etc/camera/female_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_icon.png \
     vendor/xiaomi/certus/proprietary/vendor/etc/camera/lf_facerank_model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/lf_facerank_model.bin \
