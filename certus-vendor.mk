@@ -11,11 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/xiaomi/certus/proprietary/vendor/app/EmCamera/lib/arm64/libem_camera_jni.so:$(TARGET_COPY_OUT_VENDOR)/app/EmCamera/lib/arm64/libem_camera_jni.so \
     vendor/xiaomi/certus/proprietary/vendor/app/SensorHub/lib/arm64/libem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/app/SensorHub/lib/arm64/libem_sensor_jni.so \
-    vendor/xiaomi/certus/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
-    vendor/xiaomi/certus/proprietary/vendor/bin/aee_aedv64:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv64 \
-    vendor/xiaomi/certus/proprietary/vendor/bin/aee_archivev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_archivev \
-    vendor/xiaomi/certus/proprietary/vendor/bin/aee_dumpstatev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_dumpstatev \
-    vendor/xiaomi/certus/proprietary/vendor/bin/aeev:$(TARGET_COPY_OUT_VENDOR)/bin/aeev \
     vendor/xiaomi/certus/proprietary/vendor/bin/atci_service:$(TARGET_COPY_OUT_VENDOR)/bin/atci_service \
     vendor/xiaomi/certus/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/xiaomi/certus/proprietary/vendor/bin/audio_param_test-vnd:$(TARGET_COPY_OUT_VENDOR)/bin/audio_param_test-vnd \
@@ -132,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
     vendor/xiaomi/certus/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
-    vendor/xiaomi/certus/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
     vendor/xiaomi/certus/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/apdb/APDB_MT6765_S01__W2039:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6765_S01__W2039 \
     vendor/xiaomi/certus/proprietary/vendor/etc/apdb/APDB_MT6765_S01__W2039_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6765_S01__W2039_ENUM \
@@ -245,8 +239,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
     vendor/xiaomi/certus/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
-    vendor/xiaomi/certus/proprietary/vendor/etc/init/aee_aedv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv.rc \
-    vendor/xiaomi/certus/proprietary/vendor/etc/init/aee_aedv64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64.rc \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@5.0-service-mediatek.rc \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
