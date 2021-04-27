@@ -14,10 +14,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/bin/V3MLC32GB_P9F_TEST2.bin:$(TARGET_COPY_OUT_VENDOR)/bin/V3MLC32GB_P9F_TEST2.bin \
     vendor/xiaomi/certus/proprietary/vendor/bin/V3MLC64GB_PCF_TEST1.bin:$(TARGET_COPY_OUT_VENDOR)/bin/V3MLC64GB_PCF_TEST1.bin \
     vendor/xiaomi/certus/proprietary/vendor/bin/V3MLC64GB_PFF_TEST2.bin:$(TARGET_COPY_OUT_VENDOR)/bin/V3MLC64GB_PFF_TEST2.bin \
-    vendor/xiaomi/certus/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
-    vendor/xiaomi/certus/proprietary/vendor/bin/aee_archivev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_archivev \
-    vendor/xiaomi/certus/proprietary/vendor/bin/aee_dumpstatev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_dumpstatev \
-    vendor/xiaomi/certus/proprietary/vendor/bin/aeev:$(TARGET_COPY_OUT_VENDOR)/bin/aeev \
     vendor/xiaomi/certus/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/xiaomi/certus/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     vendor/xiaomi/certus/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
@@ -117,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/etc/.tp/thermal_normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal_normal.conf \
     vendor/xiaomi/certus/proprietary/vendor/etc/DSM.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/DSM_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/DSM_config.xml \
-    vendor/xiaomi/certus/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
     vendor/xiaomi/certus/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/ams_aal_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ams_aal_config.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
@@ -342,7 +337,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/etc/fts_ofilm_boe.ini:$(TARGET_COPY_OUT_VENDOR)/etc/fts_ofilm_boe.ini \
     vendor/xiaomi/certus/proprietary/vendor/etc/fts_ofilm_ebbg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/fts_ofilm_ebbg.ini \
     vendor/xiaomi/certus/proprietary/vendor/etc/fts_ofilm_tima.ini:$(TARGET_COPY_OUT_VENDOR)/etc/fts_ofilm_tima.ini \
-    vendor/xiaomi/certus/proprietary/vendor/etc/init/aee_aedv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv.rc \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/android.hardware.audio@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@4.0-service-mediatek.rc \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.1-service.rc \
