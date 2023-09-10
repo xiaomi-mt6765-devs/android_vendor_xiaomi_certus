@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.pm \
     vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cereus_s5k5e8yx_sunny_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cereus_s5k5e8yx_sunny_mipi_raw.dm \
     vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cereus_s5k5e8yx_sunny_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cereus_s5k5e8yx_sunny_mipi_raw.pm \
-    vendor/xiaomi/certus/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
     vendor/xiaomi/certus/proprietary/vendor/bin/mmc_ffu:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu \
     vendor/xiaomi/certus/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
     vendor/xiaomi/certus/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
