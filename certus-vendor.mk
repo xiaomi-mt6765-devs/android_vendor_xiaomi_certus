@@ -511,7 +511,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/firmware/soc1_0_ram_mcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_mcu_1_1_hdr.bin \
     vendor/xiaomi/certus/proprietary/vendor/firmware/soc1_0_ram_wifi_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_wifi_1_1_hdr.bin \
     vendor/xiaomi/certus/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0-util.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/cactus_hi556_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cactus_hi556_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/cactus_ov13855_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cactus_ov13855_ofilm_mipi_raw_tuning.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/cactus_s5k3l8_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cactus_s5k3l8_sunny_mipi_raw_tuning.so \
@@ -784,7 +783,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.microtrust.hardware.capi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.microtrust.hardware.capi@2.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib64/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@5.0-util.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/cactus_hi556_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_hi556_sunny_mipi_raw_IdxMgr.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/cactus_hi556_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_hi556_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/cactus_ov13855_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_ov13855_ofilm_mipi_raw_IdxMgr.so \
