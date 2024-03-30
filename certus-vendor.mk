@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/xiaomi/certus/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/xiaomi/certus/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
+    vendor/xiaomi/certus/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/android.hardware.audio@5.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@5.0-service-mediatek \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
@@ -45,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
+    vendor/xiaomi/certus/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/power_legacy_test_v_1_0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_legacy_test_v_1_0 \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/power_native_test_v_1_0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test_v_1_0 \
@@ -58,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/vendor.microtrust.hardware.capi@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.capi@2.0-service \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
+    vendor/xiaomi/certus/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
     vendor/xiaomi/certus/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
     vendor/xiaomi/certus/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
     vendor/xiaomi/certus/proprietary/vendor/bin/lbs_hidl_service:$(TARGET_COPY_OUT_VENDOR)/bin/lbs_hidl_service \
@@ -113,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant \
     vendor/xiaomi/certus/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     vendor/xiaomi/certus/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
+    vendor/xiaomi/certus/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
     vendor/xiaomi/certus/proprietary/vendor/data/misc/pdc.txt:$(TARGET_COPY_OUT_VENDOR)/data/misc/pdc.txt \
     vendor/xiaomi/certus/proprietary/vendor/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
     vendor/xiaomi/certus/proprietary/vendor/etc/.tp/.thermal_policy_00:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_00 \
@@ -255,6 +259,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
+    vendor/xiaomi/certus/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/init.bip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip.rc \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/xiaomi/certus/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
@@ -751,6 +756,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@5.1.so \
@@ -1123,8 +1129,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_utility.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libverno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libverno.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
