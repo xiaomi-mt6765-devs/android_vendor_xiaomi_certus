@@ -990,11 +990,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.xiaomi.hardware.mtdservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.mtdservice@1.2.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.vsimapp@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/wechat.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/wechat.mt6765.so \
-    vendor/xiaomi/certus/proprietary/vendor/nvcfg:$(TARGET_COPY_OUT_VENDOR)/nvcfg \
-    vendor/xiaomi/certus/proprietary/vendor/nvdata:$(TARGET_COPY_OUT_VENDOR)/nvdata \
-    vendor/xiaomi/certus/proprietary/vendor/persist:$(TARGET_COPY_OUT_VENDOR)/persist \
-    vendor/xiaomi/certus/proprietary/vendor/protect_f:$(TARGET_COPY_OUT_VENDOR)/protect_f \
-    vendor/xiaomi/certus/proprietary/vendor/protect_s:$(TARGET_COPY_OUT_VENDOR)/protect_s \
     vendor/xiaomi/certus/proprietary/vendor/thh/ta/08010203000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08010203000000000000000000000000.ta \
     vendor/xiaomi/certus/proprietary/vendor/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta \
     vendor/xiaomi/certus/proprietary/vendor/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta \
