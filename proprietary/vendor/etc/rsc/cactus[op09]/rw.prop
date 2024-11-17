@@ -1,0 +1,5 @@
+persist.vendor.operator.optr=OP09
+persist.vendor.operator.spec=SPEC0212
+persist.vendor.operator.seg=SEGC
+persist.vendor.mtk_ct_volte_support=1
+persist.vendor.radio.mtk_dsbp_support=1

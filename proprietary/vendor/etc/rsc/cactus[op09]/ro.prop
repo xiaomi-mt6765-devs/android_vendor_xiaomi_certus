@@ -1,0 +1,9 @@
+ro.vendor.operator.optr=OP09
+ro.vendor.operator.spec=SPEC0212
+ro.vendor.operator.seg=SEGC
+ro.vendor.mtk_devreg_app=1
+ro.vendor.mtk_ct4greg_app=1
+ro.vendor.mtk_md_sbp_custom_value=0
+ro.vendor.mediatek.rsc_name=op09
+ro.vendor.sys.current_rsc_path=/system/etc/rsc/cactus[op09]
+ro.vendor.vnd.current_rsc_path=/vendor/etc/rsc/cactus[op09]

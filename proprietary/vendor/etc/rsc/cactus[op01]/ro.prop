@@ -1,0 +1,8 @@
+ro.vendor.mtk_usb_cba_support=1
+ro.vendor.operator.optr=OP01
+ro.vendor.operator.spec=SPEC0200
+ro.vendor.operator.seg=SEGC
+ro.vendor.mtk_md_sbp_custom_value=1
+ro.vendor.mediatek.rsc_name=op01
+ro.vendor.sys.current_rsc_path=/system/etc/rsc/cactus[op01]
+ro.vendor.vnd.current_rsc_path=/vendor/etc/rsc/cactus[op01]
